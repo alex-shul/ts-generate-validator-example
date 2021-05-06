@@ -1,0 +1,31 @@
+{
+  "totalCount": 2,
+  "items": [
+    {
+      "id": 1,
+      "name": "Garden table",
+      "description": "awesome product",
+      "categories": ["garden"],
+      "options": {
+        "sunResistance": 1,
+        "material": "plastic",
+        "width": 1200,
+        "height": 700,
+        "length": 1500
+      },
+      "onSale": false
+    },
+    {
+      "id": 2,
+      "name": "Electric scissors",
+      "description": "awesome product",
+      "categories": ["garden", "electric"],
+      "options": {
+        "voltage": 230,
+        "power": 750,
+        "subcategory": ["tool"]
+      },
+      "onSale": false
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "name": "ts-generate-validator-example",
+  "version": "1.0.0",
+  "description": "Usage example for ts-generate-validator package",
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node --ignore none index.ts",
+    "gen": "generateValidator"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alex-shul/ts-generate-validator-example.git"
+  },
+  "keywords": [
+    "ts-generate-validator",
+    "example",
+    "validation",
+    "codogeneration",
+    "typescript",
+    "model"
+  ],
+  "author": "Alex Shul",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alex-shul/ts-generate-validator-example/issues"
+  },
+  "homepage": "https://github.com/alex-shul/ts-generate-validator-example#readme",
+  "dependencies": {
+    "ts-generate-validator": "0.0.10",
+    "ts-node": "9.1.1",
+    "typescript": "4.2.3",
+    "yup": "0.32.9"
+  }
+}
